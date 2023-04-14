@@ -1,4 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 
 @font-face {
     font-family:'RubikPixels-Regular' ;
@@ -6,16 +8,18 @@
 }
 
 @font-face {
-    font-family:'SF-Mono-Regular' ;
+    font-family: 'IBM Plex Mono', monospace;
     src: url(fonts/SF-Mono-Regular.woff);
 }
+
+
 
 
 
 * {
 
     box-sizing: border-box;
-    font-family: "SF Mono", sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     background-color: rgb(255, 255, 255);
     
 
