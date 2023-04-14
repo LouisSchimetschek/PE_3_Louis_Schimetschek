@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: "SF Mono", sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+
+
+*
+#wrapper{
+    display: grid;
+    width: 800px;
+    gap: 40px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 80px 300px 100px 150px 50px;
+    grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "aside aside orange orange"
+        "aside aside orange orange"
+        "footer footer footer footer"
+
+
+    ; 
+}
+
+header{
+    background-color: transparent  ;
+    grid-area: header;
+
+}
+nav{
+    background-color: transparent;
+    grid-area: nav;
+    display: flex;
+}
+aside{
+    background-color: transparent;
+    grid-area: aside;
+    display: block;
+
+}
+
+#yellow{
+    background-image: yellow;
+    grid-area: yellow;
+    
+
+}
+
+#orange{
+    background-color: transparent;
+    grid-area: orange;
+    
+}
+
+footer{
+    background-color:transparent;
+    grid-area: footer;
+}
+
+#logo {
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-family: 'Rubik Pixels', cursive;
+}
+
+
+

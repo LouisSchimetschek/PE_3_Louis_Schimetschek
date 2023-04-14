@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+    #wrapper{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 75px 150px 400px 100px 100px 30px;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "aside"
+        "orange"
+        
+        
+
+
+    ; 
+    gap: 10px;
+
+}
+}
+
