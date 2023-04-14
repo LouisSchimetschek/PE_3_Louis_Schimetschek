@@ -1,8 +1,8 @@
 {
-    "title": "Git",
-    "folder": "git",
-    "description": "Einführung in das Versionskontrollsystem Git",
+    "title": "Internet",
+    "folder": "Internet",
+    "description": "Internet Erklärung",
     "tags": ["Internet", "Software"],
     "author": "Louis Schimetschek",
-    "github": "https://github.com/max-muster/ig3_prog3_lexikon"
+    "github": "https://github.com/LouisSchimetschek/PE_3_Louis_Schimetschek"
 }
